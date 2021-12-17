@@ -29,6 +29,8 @@ public class LoginTest {
 		driver.findElement(By.cssSelector("button[jsname = 'LgbsSe']")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.cssSelector("input[type = 'password']")).sendKeys("asdf");
+		driver.findElement(By.cssSelector("button[jsname = 'LgbsSe']")).click();
+		
 		
 	}
 	
