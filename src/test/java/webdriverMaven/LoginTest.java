@@ -23,7 +23,7 @@ public class LoginTest {
 	@Test
 	public void doLogin() throws InterruptedException {
 		
-		
+		//Using EGit plugin
 		driver.get("http://gmail.com");
 		driver.findElement(By.id("identifierId")).sendKeys("trainer@way2automation.com");
 		driver.findElement(By.cssSelector("button[jsname = 'LgbsSe']")).click();
